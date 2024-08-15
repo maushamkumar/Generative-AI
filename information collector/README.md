@@ -25,19 +25,19 @@ This project is a simple chatbot that collects user data, including name, email,
    git clone https://github.com/your-username/chatbot-project.git
    cd chatbot-project
 
-2. ** Create and Activate Virtual Environment
+2. **Create and Activate Virtual Environment**
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-3. ** Install Dependencies
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
-4. ** set Up Environment Variable
+4. **set Up Environment Variable**
    ```bash
    MONGO_URI="mongodb+srv://<username>:<password>@cluster0.mongodb.net/chatbot_db?retryWrites=true&w=majority"
    WHATSAPP_ACCESS_TOKEN="YOUR_WHATSAPP_ACCESS_TOKEN"
    WHATSAPP_PHONE_NUMBER_ID="YOUR_WHATSAPP_PHONE_NUMBER_ID"
-5. ** Running the Streamlit App
+5. **Running the Streamlit App**
 - In a separate terminal, you can start the Streamlit app by running:
   ```bash
   streamlit run app.py
