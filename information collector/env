@@ -1,0 +1,3 @@
+MONGO_URI="mongodb+srv://<username>:<password>@cluster0.mongodb.net/chatbot_db?retryWrites=true&w=majority"
+WHATSAPP_ACCESS_TOKEN="YOUR_WHATSAPP_ACCESS_TOKEN"
+WHATSAPP_PHONE_NUMBER_ID="YOUR_WHATSAPP_PHONE_NUMBER_ID"
